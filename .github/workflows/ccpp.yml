@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: installGLFW
       run:  |
+           sudo apt-get update
            sudo apt-get install cmake xorg-dev libglu1-mesa-dev
            sudo apt-get install libglfw3
            sudo apt-get install libglfw3-dev
