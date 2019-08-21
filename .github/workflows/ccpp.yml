@@ -9,8 +9,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: update
-      run: sudo apt-get update && upgrade
     - name: installGLFW
       run: sudo apt-get install cmake xorg-dev libglu1-mesa-dev
     - name: build
