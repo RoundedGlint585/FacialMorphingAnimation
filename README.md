@@ -14,6 +14,7 @@ These are the base requirements to build
   * A C++17-standard-compliant compiler
   * GLFW3
   * OpenGL3 or higher support
+  * GLM
 ## Installing 
 
 ```bash
